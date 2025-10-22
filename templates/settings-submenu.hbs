@@ -1,0 +1,144 @@
+<div class="standard-form scrollable">
+	<div class="tab active" data-tab="image" data-group="category">
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.path_name"}}</label>
+			<div class="form-fields">
+				<file-picker type="image" name="path">{{path}}</file-picker>
+			</div>
+			<p class="hint">{{localize "PAUSEICON.path_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.path_name"}}</label>
+			<div class="form-fields">
+				<file-picker type="image" name="secondaryPath">{{secondaryPath}}</file-picker>
+			</div>
+			<p class="hint">{{localize "PAUSEICON.secondary_path_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.opacity_name"}}</label>
+			<div class="form-fields">
+				<range-picker class="pause-icon pi-opacity" name="opacity" value="{{opacity}}" step="1" min="0" max="100"> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.opacity_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.dimensions_name"}}</label>
+			<div class="form-fields slim">
+				<label class="pause-icon pi-label-name">{{localize "PAUSEICON.dimensionWidth_name"}}</label>
+				<input class="pause-icon pi-dimensionX" name="dimensionX" type="Number" value="{{dimensionX}}">
+				<label class="pause-icon pi-label-name">{{localize "PAUSEICON.dimensionHeight_name"}}</label>
+				<input class="pause-icon pi-dimensionY" name="dimensionY" type="Number" value="{{dimensionY}}"> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.dimensions_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.positionX_name"}}</label>
+			<div class="form-fields">
+				<range-picker class="pause-icon pi-positionX" name="positionX" type="Number" value="{{positionX}}" min="-50" max="50" step="1">
+			</div>
+			<p class="hint">{{localize "PAUSEICON.positionX_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.positionY_name"}}</label>
+			<div class="form-fields">
+				<range-picker class="pause-icon pi-positionY" name="positionY" type="Number" value="{{positionY}}" min="0" max="100" step="1"> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.positionY_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.speed_name"}}</label>
+			<div class="form-fields">
+				<input class="pause-icon pi-speed" name="speed" type="Number" value="{{speed}}"> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.speed_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label for="pause-icon-gradient" class="pause-icon pi-label-name">{{localize "PAUSEICON.gradient_name"}}</label>
+			<div class="form-fields">
+				{{#if gradient}}
+				<input class="pause-icon pi-gradient" id="pause-icon-gradient" name="gradient" type="checkbox" checked>
+				{{else}}
+				<input class="pause-icon pi-gradient" id="pause-icon-gradient" name="gradient" type="checkbox">
+				{{/if}}
+			</div>
+			<p class="hint">{{localize "PAUSEICON.gradient_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label for="pause-icon-pulse" class="pause-icon pi-label-name">{{localize "PAUSEICON.pulse_name"}}</label>
+			<div class="form-fields">
+				{{#if pulse}}
+				<input class="pause-icon pi-pulse" id="pause-icon-pulse" name="pulse" type="checkbox" checked>
+				{{else}}
+				<input class="pause-icon pi-pulse" id="pause-icon-pulse" name="pulse" type="checkbox">
+				{{/if}}
+			</div>
+			<p class="hint">{{localize "PAUSEICON.pulse_hint"}}</p>
+		</div>
+	</div>
+	<div class="tab" data-tab="font" data-group="category">
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.text_name"}}</label>
+			<div class="form-fields">
+				<input class="pause-icon pi-text" name="text" type="Text" value="{{text}}"> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.text_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.textColor_name"}}</label>
+			<div class="form-fields">
+				<color-picker name="textColor" value="{{textColor}}"></color-picker>
+			</div>
+			<p class="hint">{{localize "PAUSEICON.textColor_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.fontName_name"}}</label>
+			<div class="form-fields">
+				<select class="pause-icon pi-font-name" name="fontName"></select> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.fontName_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.fontWeight_name"}}</label>
+			<div class="form-fields">
+				<select class="pause-icon pi-font-weight" name="fontWeight"></select> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.fontWeight_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.fontStyle_name"}}</label>
+			<div class="form-fields">
+				<select class="pause-icon pi-font-style" name="fontStyle"></select> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.fontStyle_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.fontSize_name"}}</label>
+			<div class="form-fields">
+				<input class="pause-icon pi-font-size" name="fontSize" type="Text" value="{{fontSize}}"> 
+			</div>
+			<p class="hint">{{localize "PAUSEICON.fontSize_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label class="pause-icon pi-label-name">{{localize "PAUSEICON.fontCaps_name"}}</label>
+			<div class="form-fields">
+				<select class="pause-icon pi-font-caps" name="fontCaps" value="{{fontCaps}}">
+					<option value="none">{{localize "PAUSEICON.fontCaps_optionA"}}</option>
+					<option value="uppercase">{{localize "PAUSEICON.fontCaps_optionB"}}</option>
+					<option value="capitalize">{{localize "PAUSEICON.fontCaps_optionC"}}</option>
+				</select>
+			</div>
+			<p class="hint">{{localize "PAUSEICON.fontCaps_hint"}}</p>
+		</div>
+		<div class="form-group">
+			<label for="pause-icon-shadow" class="pause-icon pi-label-name">{{localize "PAUSEICON.shadow_name"}}</label>
+			<div class="form-fields">
+				{{#if shadow}}
+				<input class="pause-icon pi-shadow" id="pause-icon-shadow"name="shadow" type="checkbox" checked>
+				{{else}}
+				<input class="pause-icon pi-shadow" id="pause-icon-shadow" name="shadow" type="checkbox">
+				{{/if}}
+			</div>
+			<p class="hint">{{localize "PAUSEICON.shadow_hint"}}</p>
+		</div>
+	</div>
+</div>

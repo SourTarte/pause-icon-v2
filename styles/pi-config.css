@@ -1,0 +1,15 @@
+label.pause-icon.pi-label-name {
+    font-weight: bold;
+}
+.pause-icon.pi-submenu-header{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+.secondary-img {
+    
+    z-index: 1;
+}
+#pause > img{
+    position: absolute;
+}
