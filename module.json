@@ -1,7 +1,7 @@
 {
   "id": "pause-icon-v2",
   "title": "DO NOT UNINSTALL - Alternative Pause Icon",
-  "description": "Set your pause icon to whatever image you prefer, and set the message to your liking too. Supported formats are jpg, png, webP and gif. Set your rotation speed too!</p><p>This fork adds the ability to have two icons overlayed on one another, where only one image rotates. This allows visual references such as text spinning around an icon, or hands spinning in a clock.",
+  "description": "Set your pause icon to whatever image you prefer, and set the message to your liking too. Supported formats are jpg, png, webP and gif. Set your rotation speed too! This fork adds the ability to have two icons overlayed on one another, where only one image rotates. This allows visual references such as text spinning around an icon, or hands spinning in a clock.",
   "authors": [
     {
       "name": "Freeze",
