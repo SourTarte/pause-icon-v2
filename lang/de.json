@@ -1,7 +1,7 @@
 {
     "PAUSEICON.path_name":          "Datenpfad des Pausensymbols: ",
     "PAUSEICON.path_hint":          "Ordner und Dateiname, wo sich dein alternatives Pausensymbol im Foundry VTT-Datenverzeichnis befindet. Klicke auf die Auswahl-Schaltfläche, um dein Symbol auszuwählen. Tippe None für kein Bild.",
-    "PAUSEICON.secondary_path_hint":"Ordner und Dateiname für ein sekundäres Pausensymbol, das stationär bleibt.",
+    "PAUSEICON.secondary_path_hint":"LOCALISATION MISSING: Sorry, this text has not been localised.",
     "PAUSEICON.opacity_name":       "Transparenz %: ",
     "PAUSEICON.opacity_hint":       "Wert zwischen 0 und 100, je niedriger, desto durchsichtiger",
     "PAUSEICON.text_name":          "Pausenmeldung: ",

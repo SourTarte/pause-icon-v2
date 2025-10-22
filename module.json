@@ -1,7 +1,7 @@
 {
   "id": "pause-icon-v2",
-  "title": "Sour's Pause Icon",
-  "description": "<p>Forked from Freeze's <a href=\"https://gitlab.com/Freeze020/pause-icon/\">original pause icon</a> code.</p><p>Set your pause icon to whatever image you prefer, and set the message to your liking too. Supported formats are jpg, png, webP and gif. Set your rotation speed too!</p><p>This fork adds the ability to have two icons overlayed on one another, where only one image rotates. This allows visual references such as text spinning around an icon, or hands spinning in a clock.</p>",
+  "title": "DO NOT UNINSTALL - Alternative Pause Icon",
+  "description": "Set your pause icon to whatever image you prefer, and set the message to your liking too. Supported formats are jpg, png, webP and gif. Set your rotation speed too!</p><p>This fork adds the ability to have two icons overlayed on one another, where only one image rotates. This allows visual references such as text spinning around an icon, or hands spinning in a clock.",
   "authors": [
     {
       "name": "Freeze",
@@ -33,26 +33,9 @@
       "name": "English",
       "path": "lang/en.json",
       "flags": {}
-    },
-    {
-      "lang": "es",
-      "name": "Español",
-      "path": "lang/es.json",
-      "flags": {}
-    },
-    {
-      "lang": "ja",
-      "name": "日本語",
-      "path": "lang/ja.json",
-      "flags": {}
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch",
-      "path": "lang/de.json",
-      "flags": {}
     }
   ],
-  "manifest": "",
+  "manifest": "https://github.com/SourTarte/pause-icon-v2/blob/main/module.json",
+  "url": "https://github.com/SourTarte/pause-icon-v2",
   "flags": {}
 }

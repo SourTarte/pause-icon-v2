@@ -1,6 +1,7 @@
 {
     "PAUSEICON.path_name":       "一時停止アイコンのファイル保存先：",
     "PAUSEICON.path_hint":       "オンセ工房 Foundry VTTのユーザデータ内部に置かれている既存の一時停止アイコンの代わりとなるファイルのフォルダと名前を指定します。Noneと入力したら画像が消えます。",
+    "PAUSEICON.secondary_path_hint":"LOCALISATION MISSING: Sorry, this text has not been localised.",
     "PAUSEICON.opacity_name":    "不透明度：",
     "PAUSEICON.opacity_hint":    "0〜100（値が小さいほど透明になります）",
     "PAUSEICON.text_name":       "一時停止メッセージ：",

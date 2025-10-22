@@ -1,6 +1,7 @@
 {
   "PAUSEICON.path_name": "Icono de pausa: ",
   "PAUSEICON.path_hint": "Localización y nombre del fichero donde se encuentran sus iconos de pausa alternativos dentro de directorio de datos de Foundry VTT. Haga clic en el explorador de archivos para seleccionar el icono. Escriba None para no usar ninguna imagen.",
+  "PAUSEICON.secondary_path_hint":"LOCALISATION MISSING: Sorry, this text has not been localised.",
   "PAUSEICON.opacity_name": "Opacidad (%): ",
   "PAUSEICON.opacity_hint": "Valor entre 0 y 100, cuanto menor más traslúcido.",
   "PAUSEICON.text_name": "Mensaje de pausa: ",
